@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">fecom</string>
+    <string name="title_activity_main">fecom</string>
+    <string name="package_name">com.fecom.app</string>
+    <string name="custom_url_scheme">com.fecom.app</string>
+</resources>

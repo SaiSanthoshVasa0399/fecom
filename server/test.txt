@@ -1,0 +1,16 @@
+User Registration
+
+curl -X POST http://127.0.0.1:5000/api/register \
+     -H "Content-Type: application/json" \
+     -d '{"username": "test_user", "email": "test@example.com", "password": "password123", "full_name": "Test User"}'
+
+User Login
+
+curl -X POST http://127.0.0.1:5000/api/login \
+     -H "Content-Type: application/json" \
+     -d '{"username": "test_user", "password": "password123"}'
+
+
+# Replace {TOKEN} with the token obtained from the login response
+curl http://127.0.0.1:5000/api/user/1 \
+     -H "Authorization: Bearer {TOKEN}"

@@ -1,0 +1,3 @@
+const PY_SERVER_BASE_URL="http://3.83.148.136:5000"
+
+export {PY_SERVER_BASE_URL}
